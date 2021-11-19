@@ -5,7 +5,7 @@ export const color = {
   lightRed: "#ff0000",
   gray: "#343434",
   lightGray: "#3e3e3e",
-  lightBlack: "#181818e8",
+  lightBlack: "#000000e8",
   ghostWhite: "#fff5f5",
   shadowWhite: "rgb(221 221 221)",
   brown: "#b8880f",
@@ -19,4 +19,4 @@ export const breakpoint = {
   xl: "1536px",
 };
 
-export const telNumber = "0911 054 414";
+export const telNumber = "0902 873 218";

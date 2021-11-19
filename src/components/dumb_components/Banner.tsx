@@ -48,7 +48,7 @@ export const Banner = () => {
               </PInfoBanner>
               <PInfoPayment>Platba v hotovosti aj kartou</PInfoPayment>
               <PInfoPayment style={{ fontSize: "1.5em" }}>
-                20:00-03:00
+                22:00-03:00
               </PInfoPayment>
               <PInfoNonStop>Pia-So</PInfoNonStop>
             </DivTextInfo>

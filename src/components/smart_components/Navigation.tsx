@@ -77,7 +77,7 @@ export const Navigation = () => {
               PÁRTY SETY
             </A>
           </Li>
-          <LiDropWrapper>
+          {/* <LiDropWrapper>
             <A to="#" onClick={executeScroll} style={{ cursor: "default" }}>
               TYPY
             </A>
@@ -94,10 +94,15 @@ export const Navigation = () => {
                 </A>
               </Li>
             </UlDrop>
-          </LiDropWrapper>
+          </LiDropWrapper> */}
           <Li>
             <A to="/naše-služby" onClick={executeScroll}>
               NAŠE SLUŽBY
+            </A>
+          </Li>
+          <Li>
+            <A to="/cennik-dopravy" onClick={executeScroll}>
+              CENNÍK DOPRAVY
             </A>
           </Li>
           <Li>

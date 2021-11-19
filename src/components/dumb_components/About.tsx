@@ -1,5 +1,6 @@
 import { DivAbout, H1 } from "../../App";
 import { Grid } from "@mui/material";
+import { color } from "../../config";
 import { getSlugName } from "../../functions/getSlugName";
 import { refactorUrl } from "../../functions/refactorUrl";
 import { useLocation } from "react-router";
@@ -9,12 +10,12 @@ const About = () => {
 
   return (
     <>
-      <Grid xs={12} container justifyContent="center">
+      <Grid xs={12}>
         <H1>{refactorUrl(getSlugName(location, 1))}</H1>
       </Grid>
       <Grid xs={12} container justifyContent="center">
         <DivAbout>
-          <p>
+          <p style={{ marginTop: 0 }}>
             Máte doma súkromnú párty a v tom najlepšom sa Vám minie Váš obľúbený
             alkohol? Vonku je chladno a čerpacia stanica ďaleko? Alebo sa Vám
             len nechce v noci nasadzovať rúško a vychádzať z teplého domova?
@@ -31,24 +32,6 @@ const About = () => {
             <strong>tequilla</strong> a ďalšie.
           </p>
         </DivAbout>
-      </Grid>
-      <Grid
-        xs={12}
-        container
-        justifyContent="center"
-        alignItems="center"
-        flexDirection="column"
-      >
-        <Grid item xs={12}>
-          <H1>Cena dopravy</H1>
-        </Grid>
-        <Grid item xs={12}>
-          <DivAbout>
-            <p>Holíč: ZADARMO </p>
-            <p>Skalica: 3€</p>
-            <p>Ostatné (okres SI): 30 centov / KM * 2</p>
-          </DivAbout>
-        </Grid>
       </Grid>
     </>
   );

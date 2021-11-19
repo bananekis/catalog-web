@@ -15,6 +15,7 @@ import About from "./components/dumb_components/About";
 import Carousel from "react-elastic-carousel";
 import Footer from "./components/dumb_components/Footer";
 import Kontakt from "./components/dumb_components/Kontakt";
+import PriceList from "./components/dumb_components/PriceList";
 import SearchResults from "./components/views/SearchResults";
 import SpecificAlcohol from "./components/views/SpecificAlcohol";
 import SpecificTypes from "./components/views/SpecificTypes";
@@ -523,6 +524,7 @@ export const PImage = styled(P)`
 
 export const Nav = styled.nav`
   position: relative;
+  font-size: 0.9em;
 `;
 export const DivDropDown = styled.div`
   position: relative;
@@ -667,11 +669,11 @@ function App() {
   const [searchValue, setSearchValue] = useState<string>("");
   const location = useLocation();
 
-  const types = ["čo-sa-pije-v-zime", "čo-sa-pije-v-lete"];
+  // const types = ["čo-sa-pije-v-zime", "čo-sa-pije-v-lete"];
 
-  const someType = types.some((element: string) => {
-    return element === getSlugName(location, 1);
-  });
+  // const someType = types.some((element: string) => {
+  //   return element === getSlugName(location, 1);
+  // });
 
   const handleSearch = (e: string) => {
     setSearchValue(e);
@@ -685,13 +687,13 @@ function App() {
       <Header handleSearch={handleSearch} />
 
       {/* display banner */}
-      <Route path="/" exact>
+      <Route path="/">
         <Banner />
       </Route>
 
-      <Route path="/:id">
+      {/* <Route path="/:id">
         {someType === true ? <BannerTyps /> : <Banner />}
-      </Route>
+      </Route> */}
 
       {/* main content */}
 
@@ -702,14 +704,14 @@ function App() {
           </Route>
 
           <Route exact path="/:id">
-            {someType === true ? (
-              <TypsSpecific />
-            ) : getSlugName(location, 1) === "kontakt" ? (
+            {getSlugName(location, 1) === "kontakt" ? (
               <Kontakt />
             ) : getSlugName(location, 1) === "naše-služby" ? (
               <About />
             ) : getSlugName(location, 1) === "hľadaný-produkt" ? (
               <SearchResults searchValue={searchValue} />
+            ) : getSlugName(location, 1) === "cennik-dopravy" ? (
+              <PriceList />
             ) : (
               <SpecificTypes />
             )}

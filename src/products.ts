@@ -156,7 +156,7 @@ export const products = [
   {
     id: 15,
     produkt: "Fernet stock: Fernet Stock ",
-    typ: "Fernet",
+    typ: "Likér",
     objem: "0,5l",
     obsah: "38%",
     cena: 11,
@@ -167,7 +167,7 @@ export const products = [
   {
     id: 16,
     produkt: "Fernet stock Citrus",
-    typ: "Fernet",
+    typ: "Likér",
     objem: "0,5l",
     obsah: "27%",
     cena: 11,
@@ -387,13 +387,13 @@ export const products = [
   {
     id: 36,
     produkt: "Tequilla Olmeca: gold",
-    typ: "Tequila",
+    typ: "Tequilla",
     objem: "0,7l",
     obsah: "38%",
     cena: 23,
     krajina: "Mexiko",
     popis:
-      "Tequilla Olmeca Gold: Nádherná priezračná tequila vyrobená zo špičkovej modrej agávyšpeciálnym procesom, ktorý zdôrazňuje jej výnimočnú čistotu. Čistá najlepšie chutís citrónom a soľou, no je skvelá i na prípravu obľúbených drinkov ako TequilaSunrise alebo Margarita.",
+      "Tequilla Olmeca Gold: Nádherná priezračná tequila vyrobená zo špičkovej modrej agávy a špeciálnym procesom, ktorý zdôrazňuje jej výnimočnú čistotu. Čistá najlepšie chutís citrónom a soľou, no je skvelá i na prípravu obľúbených drinkov ako TequilaSunrise alebo Margarita.",
   },
   {
     id: 37,
@@ -437,7 +437,7 @@ export const products = [
     cena: 18,
     krajina: "",
     popis:
-      "Nicolaus: Unikátna jemnosť Nicolaus Extra Jemnej Vodky je ukrytá v krištáľovočistej tatranskej vode, viacnásobnej filtrácii cez strieborné filtre a 140 ročnej tradícii. Veľmi jemný lieh je pripravený najmodernejšími technológiami z vysokokvalitnéh oobilia.",
+      "Captain Morgan Spiced Gold je unikátna liehovina sneopakovateľnou chuťou. Zreje celý rok v dubových sudoch, kde je obohacovanýunikátnou tajnou zmesou bylín a korenia. Coca-Cola je osviežujúci nealkoholický nápoj, ktorý prináša okamžiky pohody a radosti viac ako 125 rokov.",
   },
   {
     id: 41,
@@ -445,10 +445,10 @@ export const products = [
     typ: "Párty sety",
     objem: "0.7l + 1.5l",
     obsah: "40%",
-    cena: 21,
+    cena: 22,
     krajina: "",
     popis:
-      "Nicolaus: Unikátna jemnosť Nicolaus Extra Jemnej Vodky je ukrytá v krištáľovočistej tatranskej vode, viacnásobnej filtrácii cez strieborné filtre a 140 ročnej tradícii. Veľmi jemný lieh je pripravený najmodernejšími technológiami z vysokokvalitnéh oobilia.",
+      "Najoceňovanejší prémiový gin na svete. Beefeater je jediný gin, ktorý savyrába priamo v Londýne, čo z neho robí už desaťročia pravého britskéhogentlemana, ktorý po celom svete hrdo a patrične reprezentuje svoje rodisko.Beefeater je oviežujúci, čistý a zároveň ostrý gin s nepatrným nádychom citrusov aovocia, vyváženým chuťou korenia. Je výborným základom pre rôzne koktaily.Beefeater Gin je číslo jeden spomedzi prémiových ginov sveta a ročne sa ho predáviac ako 21 miliónov litrov. Charakter nápojov Kinley presahuje hranice krajiny a kultúry. Vďaka nemu zažiješ radosť z objavovania bez ohľadu na to, na akú cestu sa vydáš. Každý dúšok je jedinečný ako ty. Na zdravie!",
   },
   {
     id: 42,
@@ -459,7 +459,7 @@ export const products = [
     cena: 24,
     krajina: "",
     popis:
-      "Nicolaus: Unikátna jemnosť Nicolaus Extra Jemnej Vodky je ukrytá v krištáľovočistej tatranskej vode, viacnásobnej filtrácii cez strieborné filtre a 140 ročnej tradícii. Veľmi jemný lieh je pripravený najmodernejšími technológiami z vysokokvalitného obilia.",
+      "Finlandia vodka je čistá a dokonalá jediná prémiova vodka na svete,vyrobená z prírodnej filtrovanej ľadovcovej vody a šesťradého jačmeňa, dokonalevyzretého v arktickom lete. Používané suroviny nesmú byť vyrábané inde než voFínsku. Je mrazivo priezračná, zamatovo čistá, je vytvorená pre výnimočné chvíle. Red Bull je funkčný nápoj, ktorý vám dáva krídla, kedykoľvek ich potrebujete. KEDY HO PIŤ? Pri šoférovaní, v škole a počas štúdia, v práci, pri športe či hraní videohier alebo keď sa idete baviť - tak vo dne, ako aj v noci.",
   },
   {
     id: 43,
@@ -470,7 +470,7 @@ export const products = [
     cena: 19,
     krajina: "",
     popis:
-      "Nicolaus: Unikátna jemnosť Nicolaus Extra Jemnej Vodky je ukrytá v krištáľovočistej tatranskej vode, viacnásobnej filtrácii cez strieborné filtre a 140 ročnej tradícii.Veľmi jemný lieh je pripravený najmodernejšími technológiami z vysokokvalitného obilia.",
+      "Finlandia vodka je čistá a dokonalá jediná prémiova vodka na svete,vyrobená z prírodnej filtrovanej ľadovcovej vody a šesťradého jačmeňa, dokonalevyzretého v arktickom lete. Používané suroviny nesmú byť vyrábané inde než voFínsku. Je mrazivo priezračná, zamatovo čistá, je vytvorená pre výnimočné chvíle. Kvalitné džúsy, nektáre a ovocné nápoje nájdete v obchodoch pod značkou Cappy. Sú vyrábané zo starostlivo vyberaného ovocia a neobsahujú farbivá ani konzervačné látky. Vďaka širokej ponuke príchutí v rôznych baleniach si z nich vyberie úplne každý.",
   },
   {
     id: 44,
@@ -481,7 +481,7 @@ export const products = [
     cena: 3,
     krajina: "",
     popis:
-      "Nicolaus: Unikátna jemnosť Nicolaus Extra Jemnej Vodky je ukrytá v krištáľovočistej tatranskej vode, viacnásobnej filtrácii cez strieborné filtre a 140 ročnej tradícii.Veľmi jemný lieh je pripravený najmodernejšími technológiami z vysokokvalitného obilia.",
+      "Kvalitné džúsy, nektáre a ovocné nápoje nájdete v obchodoch pod značkou Cappy. Sú vyrábané zo starostlivo vyberaného ovocia a neobsahujú farbivá ani konzervačné látky. Vďaka širokej ponuke príchutí v rôznych baleniach si z nich vyberie úplne každý.",
   },
   {
     id: 45,
@@ -492,7 +492,7 @@ export const products = [
     cena: 2,
     krajina: "",
     popis:
-      "Nicolaus: Unikátna jemnosť Nicolaus Extra Jemnej Vodky je ukrytá v krištáľovočistej tatranskej vode, viacnásobnej filtrácii cez strieborné filtre a 140 ročnej tradícii.Veľmi jemný lieh je pripravený najmodernejšími technológiami z vysokokvalitného obilia.",
+      "Charakter nápojov Kinley presahuje hranice krajiny a kultúry. Vďaka nemu zažiješ radosť z objavovania bez ohľadu na to, na akú cestu sa vydáš. Každý dúšok je jedinečný ako ty. Na zdravie!",
   },
   {
     id: 46,
@@ -503,7 +503,7 @@ export const products = [
     cena: 2,
     krajina: "",
     popis:
-      "Nicolaus: Unikátna jemnosť Nicolaus Extra Jemnej Vodky je ukrytá v krištáľovočistej tatranskej vode, viacnásobnej filtrácii cez strieborné filtre a 140 ročnej tradícii.Veľmi jemný lieh je pripravený najmodernejšími technológiami z vysokokvalitného obilia.",
+      "Sprite je štvrtým najobľúbenejším sýteným nealkoholickým nápojom na svete a vo svojej kategórii má na trhu poprednú pozíciu. Prvýkrát bol predstavený v roku 1961 v Spojených štátoch, teraz sa predáva vo viac než 190 krajinách, od roku 1991 vrátane Slovenskej republiky.",
   },
   {
     id: 47,
@@ -514,7 +514,7 @@ export const products = [
     cena: 2,
     krajina: "",
     popis:
-      "Nicolaus: Unikátna jemnosť Nicolaus Extra Jemnej Vodky je ukrytá v krištáľovočistej tatranskej vode, viacnásobnej filtrácii cez strieborné filtre a 140 ročnej tradícii.Veľmi jemný lieh je pripravený najmodernejšími technológiami z vysokokvalitného obilia.",
+      "Coca-Cola je osviežujúci nealkoholický nápoj, ktorý prináša okamžiky pohody a radosti viac ako 125 rokov.",
   },
   {
     id: 48,
@@ -525,18 +525,18 @@ export const products = [
     cena: 2,
     krajina: "",
     popis:
-      "Nicolaus: Unikátna jemnosť Nicolaus Extra Jemnej Vodky je ukrytá v krištáľovočistej tatranskej vode, viacnásobnej filtrácii cez strieborné filtre a 140 ročnej tradícii.Veľmi jemný lieh je pripravený najmodernejšími technológiami z vysokokvalitného obilia.",
+      "Charakter nápojov Kinley presahuje hranice krajiny a kultúry. Vďaka nemu zažiješ radosť z objavovania bez ohľadu na to, na akú cestu sa vydáš. Každý dúšok je jedinečný ako ty. Na zdravie!",
   },
   {
     id: 49,
     produkt: "Red Bull",
     typ: "Nealko",
-    objem: "0.025l",
+    objem: "250ml",
     obsah: "",
     cena: 2,
     krajina: "",
     popis:
-      "Nicolaus: Unikátna jemnosť Nicolaus Extra Jemnej Vodky je ukrytá v krištáľovočistej tatranskej vode, viacnásobnej filtrácii cez strieborné filtre a 140 ročnej tradícii.Veľmi jemný lieh je pripravený najmodernejšími technológiami z vysokokvalitného obilia.",
+      "Red Bull je funkčný nápoj, ktorý vám dáva krídla, kedykoľvek ich potrebujete. KEDY HO PIŤ? Pri šoférovaní, v škole a počas štúdia, v práci, pri športe či hraní videohier alebo keď sa idete baviť - tak vo dne, ako aj v noci.",
   },
   {
     id: 50,
@@ -547,7 +547,7 @@ export const products = [
     cena: 2,
     krajina: "",
     popis:
-      "Nicolaus: Unikátna jemnosť Nicolaus Extra Jemnej Vodky je ukrytá v krištáľovočistej tatranskej vode, viacnásobnej filtrácii cez strieborné filtre a 140 ročnej tradícii.Veľmi jemný lieh je pripravený najmodernejšími technológiami z vysokokvalitného obilia.",
+      "Pramenitá voda Rajec obsahuje vyvážené množstvo minerálov. Môžete si na nej ulietať každý deň.",
   },
   {
     id: 51,
@@ -558,18 +558,18 @@ export const products = [
     cena: 2,
     krajina: "",
     popis:
-      "Nicolaus: Unikátna jemnosť Nicolaus Extra Jemnej Vodky je ukrytá v krištáľovočistej tatranskej vode, viacnásobnej filtrácii cez strieborné filtre a 140 ročnej tradícii.Veľmi jemný lieh je pripravený najmodernejšími technológiami z vysokokvalitného obilia.",
+      "Pramenitá voda Rajec obsahuje vyvážené množstvo minerálov. Môžete si na nej ulietať každý deň.",
   },
   {
     id: 52,
-    produkt: "Mionetto Prosecco",
+    produkt: "MOLETTO prosecco frizzante",
     typ: "Víno",
-    objem: "1.5l",
-    obsah: "12%",
-    cena: 15,
+    objem: "0.75l",
+    obsah: "10%",
+    cena: 10,
     krajina: "",
     popis:
-      "Nicolaus: Unikátna jemnosť Nicolaus Extra Jemnej Vodky je ukrytá v krištáľovočistej tatranskej vode, viacnásobnej filtrácii cez strieborné filtre a 140 ročnej tradícii.Veľmi jemný lieh je pripravený najmodernejšími technológiami z vysokokvalitného obilia.",
+      "Šumivé víno s jemným svetložltým odtieňom, s pravidelným perlením, z odrody Glera. Aromatický výraz je stredne intenzívny, tvorený tónmi drobných bielych kvetov a doplnených notou zrelej letnej hrušky. V ústach je víno svieže a veľmi príjemné. V chuti dominuje tón zrelej mirabelky a bielej broskyne.",
   },
   {
     id: 53,
@@ -580,17 +580,39 @@ export const products = [
     cena: 23,
     krajina: "",
     popis:
-      "Nicolaus: Unikátna jemnosť Nicolaus Extra Jemnej Vodky je ukrytá v krištáľovočistej tatranskej vode, viacnásobnej filtrácii cez strieborné filtre a 140 ročnej tradícii. Veľmi jemný lieh je pripravený najmodernejšími technológiami z vysokokvalitnéh oobilia.",
+      "Najoceňovanejší prémiový gin na svete. Beefeater je jediný gin, ktorý savyrába priamo v Londýne, čo z neho robí už desaťročia pravého britskéhogentlemana, ktorý po celom svete hrdo a patrične reprezentuje svoje rodisko.Beefeater je oviežujúci, čistý a zároveň ostrý gin s nepatrným nádychom citrusov aovocia, vyváženým chuťou korenia. Je výborným základom pre rôzne koktaily.Beefeater Gin je číslo jeden spomedzi prémiových ginov sveta a ročne sa ho predáviac ako 21 miliónov litrov. Charakter nápojov Kinley presahuje hranice krajiny a kultúry. Vďaka nemu zažiješ radosť z objavovania bez ohľadu na to, na akú cestu sa vydáš. Každý dúšok je jedinečný ako ty. Na zdravie!",
   },
   {
     id: 54,
     produkt: "Aperol Spritz 1l + Mionetto Prosecco 0.75l + Rajec jemný 1.5l",
     typ: "Párty sety",
-    objem: "0.7l + 1.5l + 1.5l",
-    obsah: "40%",
+    objem: "1l + 0.75l + 1.5l",
+    obsah: "11%",
     cena: 30,
     krajina: "",
     popis:
-      "Nicolaus: Unikátna jemnosť Nicolaus Extra Jemnej Vodky je ukrytá v krištáľovočistej tatranskej vode, viacnásobnej filtrácii cez strieborné filtre a 140 ročnej tradícii. Veľmi jemný lieh je pripravený najmodernejšími technológiami z vysokokvalitnéh oobilia.",
+      "Aperol je alkoholický nápoj radiaci sa medzi korenené bittery. Má oranžovo-červenú farbu s ovocnou ľahkou horkou chuťou. Vyrába sa z horca, rebarbory, výťažkov z pomarančov, aromatických bylín a farbív. Vznikol v talianskej rodinnej firme Barbieri na kraji mesta Padova okolo roku 1919. Jeho zvláštnosťou je veľmi nízky obsah alkoholu. Šumivé víno s jemným svetložltým odtieňom, s pravidelným perlením, z odrody Glera. Aromatický výraz je stredne intenzívny, tvorený tónmi drobných bielych kvetov a doplnených notou zrelej letnej hrušky. V ústach je víno svieže a veľmi príjemné. V chuti dominuje tón zrelej mirabelky a bielej broskyne.",
+  },
+  {
+    id: 55,
+    produkt: "Tequilla Olmeca: Bianco",
+    typ: "Tequilla",
+    objem: "0,7l",
+    obsah: "38%",
+    cena: 23,
+    krajina: "Mexiko",
+    popis:
+      "Tequilla Olmeca Bianco: Nádherná priezračná tequila vyrobená zo špičkovej modrej agávy a špeciálnym procesom, ktorý zdôrazňuje jej výnimočnú čistotu. Čistá najlepšie chutís citrónom a soľou, no je skvelá i na prípravu obľúbených drinkov ako TequilaSunrise alebo Margarita.",
+  },
+  {
+    id: 56,
+    produkt: "Ron Espero Creole Coconut",
+    typ: "Rum",
+    objem: "0,7l",
+    obsah: "40%",
+    cena: 40,
+    krajina: "Dominikánska republika",
+    popis:
+      "Ron Espero Coconut & Rum z Dominikánskej republiky je ideálny pre každého, kto sa chce liečiť populárnym rumovým likérom s kokosovou príchuťou. Tento tmavý rumový likér kombinuje to najlepšie z mladého melasového dominikánskeho rumu s výdatnými prírodnými tónmi zrelých kokosových orechov.",
   },
 ];
