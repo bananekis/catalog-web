@@ -2,6 +2,8 @@
 ## Description
 Catalog web where you can view different types of alcohol and non-alcoholic drinks. This app consist of Header, Content (dynamic) Div & Footer
 
+![Alt text](public/overview.png?raw=true "App Overview")
+
 ## Available scripts
 
 > In the project directory, you can run:
