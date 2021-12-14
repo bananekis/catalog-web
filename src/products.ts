@@ -89,14 +89,14 @@ export const products = [
   },
   {
     id: 9,
-    produkt: "Borovička Spiš Originál",
+    produkt: "Spišská Borovička",
     typ: "Destiláty",
     objem: "0,7l",
     obsah: "40%",
-    cena: 15,
+    cena: 13,
     krajina: "Slovensko",
     popis:
-      "Borovička Spiš Originál: Tradičná a pritom exkluzívna značková liehovina,základom ktorej je kvalitný prírodný borovičkový destilát. Svojou typickou chuťoua arómou po borievkach, ktorú ešte zvýrazňuje vetvička jalovca v každej fľaši, sitáto liehovina získala svojich stálych obdivovateľov.",
+      "Spišská Borovička: Tradičná a pritom exkluzívna značková liehovina,základom ktorej je kvalitný prírodný borovičkový destilát. Svojou typickou chuťoua arómou po borievkach, ktorú ešte zvýrazňuje vetvička jalovca v každej fľaši, sitáto liehovina získala svojich stálych obdivovateľov.",
   },
   {
     id: 10,
@@ -204,17 +204,6 @@ export const products = [
     objem: "0,7l",
     obsah: "40%",
     cena: 25,
-    krajina: "Anglicko",
-    popis:
-      "Bombay: Bombay Sapphire je destilovaný úplne unikátnym procesom, aký sa užívauž len v štyroch výrobniach na svete. Na rozdiel od ostatných ginov, ktoré súdestilované spoločne s bylinkovými ingredienciami, Bombay Sapphire jedestilovaný čistý bez prímesí. Aby získal svoju unikátnu chuť a vôňu, liehovinaprechádza zjednodušene povedané 'bylinkovou parou'. Tento postup umožňuje, ževšetky arómy sú plne absorbované. Výsledkom je úplná chuťová senzácia.Vôňa a chuť: ľahká a borievková, s jemným korenistým zahriatím. Súbežne sarozvíja jemná sladkosť mandľového cukru, aromatickosť angeliky a množstvobyliniek.",
-  },
-  {
-    id: 20,
-    produkt: "Bombay",
-    typ: "Gin",
-    objem: "1l",
-    obsah: "40%",
-    cena: 30,
     krajina: "Anglicko",
     popis:
       "Bombay: Bombay Sapphire je destilovaný úplne unikátnym procesom, aký sa užívauž len v štyroch výrobniach na svete. Na rozdiel od ostatných ginov, ktoré súdestilované spoločne s bylinkovými ingredienciami, Bombay Sapphire jedestilovaný čistý bez prímesí. Aby získal svoju unikátnu chuť a vôňu, liehovinaprechádza zjednodušene povedané 'bylinkovou parou'. Tento postup umožňuje, ževšetky arómy sú plne absorbované. Výsledkom je úplná chuťová senzácia.Vôňa a chuť: ľahká a borievková, s jemným korenistým zahriatím. Súbežne sarozvíja jemná sladkosť mandľového cukru, aromatickosť angeliky a množstvobyliniek.",
@@ -423,7 +412,7 @@ export const products = [
     typ: "Vodka",
     objem: "1l",
     obsah: "38%",
-    cena: 14,
+    cena: 15,
     krajina: "Slovensko",
     popis:
       "Nicolaus: Unikátna jemnosť Nicolaus Extra Jemnej Vodky je ukrytá v krištáľovočistej tatranskej vode, viacnásobnej filtrácii cez strieborné filtre a 140 ročnej tradícii. Veľmi jemný lieh je pripravený najmodernejšími technológiami z vysokokvalitnéh oobilia.",
@@ -562,14 +551,14 @@ export const products = [
   },
   {
     id: 52,
-    produkt: "MOLETTO prosecco frizzante",
+    produkt: "Hamšík Prosseco Treviso D.O.C. Extra Dry",
     typ: "Víno",
-    objem: "0.75l",
-    obsah: "10%",
-    cena: 10,
-    krajina: "",
+    objem: "0,75l",
+    obsah: "11%",
+    cena: 15,
+    krajina: "Taliansko",
     popis:
-      "Šumivé víno s jemným svetložltým odtieňom, s pravidelným perlením, z odrody Glera. Aromatický výraz je stredne intenzívny, tvorený tónmi drobných bielych kvetov a doplnených notou zrelej letnej hrušky. V ústach je víno svieže a veľmi príjemné. V chuti dominuje tón zrelej mirabelky a bielej broskyne.",
+      "Cuvée sa vyrába z odrody hrozna Glera pestovanej v najlepších oblastiach v provincii Treviso, kde enviromentálne a pôdne podmienky majú osobitné kvalitatívne vlastnosti. Víno má žiarivo žltú farbu so zelenkastými tónmi. Má nádhernú vôňu zrelých jabĺk a citrusových plodov. Chuť je svieža, ľahká a harmonická.",
   },
   {
     id: 53,
@@ -584,11 +573,12 @@ export const products = [
   },
   {
     id: 54,
-    produkt: "Aperol Spritz 1l + Mionetto Prosecco 0.75l + Rajec jemný 1.5l",
+    produkt:
+      "Aperol Spritz 0.7l + Hamšík Prosecco Treviso DOC Extra Dry 0.75l + Rajec jemný 1.5l",
     typ: "Párty sety",
-    objem: "1l + 0.75l + 1.5l",
+    objem: "0.7l + 0.75l + 1.5l",
     obsah: "11%",
-    cena: 30,
+    cena: 33,
     krajina: "",
     popis:
       "Aperol je alkoholický nápoj radiaci sa medzi korenené bittery. Má oranžovo-červenú farbu s ovocnou ľahkou horkou chuťou. Vyrába sa z horca, rebarbory, výťažkov z pomarančov, aromatických bylín a farbív. Vznikol v talianskej rodinnej firme Barbieri na kraji mesta Padova okolo roku 1919. Jeho zvláštnosťou je veľmi nízky obsah alkoholu. Šumivé víno s jemným svetložltým odtieňom, s pravidelným perlením, z odrody Glera. Aromatický výraz je stredne intenzívny, tvorený tónmi drobných bielych kvetov a doplnených notou zrelej letnej hrušky. V ústach je víno svieže a veľmi príjemné. V chuti dominuje tón zrelej mirabelky a bielej broskyne.",
@@ -610,9 +600,66 @@ export const products = [
     typ: "Rum",
     objem: "0,7l",
     obsah: "40%",
-    cena: 40,
+    cena: 30,
     krajina: "Dominikánska republika",
     popis:
       "Ron Espero Coconut & Rum z Dominikánskej republiky je ideálny pre každého, kto sa chce liečiť populárnym rumovým likérom s kokosovou príchuťou. Tento tmavý rumový likér kombinuje to najlepšie z mladého melasového dominikánskeho rumu s výdatnými prírodnými tónmi zrelých kokosových orechov.",
   },
+  {
+    id: 57,
+    produkt: "Vodka Nicolaus Blackcurrant",
+    typ: "Vodka",
+    objem: "0,7l",
+    obsah: "38%",
+    cena: 13,
+    krajina: "Slovensko",
+    popis:
+      "Extra jemná, prirodzená chuť a vôňa vodky z čiernych ríbezlí Vás očarí hneď pri prvom dúšku. Vyrobená je z krištáľovo čistej tatranskej vody a jemného obilného liehu. Pred finálnou úpravou bola filtrovaná cez unikátne strieborné filtre, ktoré jej dodali lahodnosť a čistotu.",
+  },
+  {
+    id: 58,
+    produkt: "Vodka Nicolaus Melon",
+    typ: "Vodka",
+    objem: "0,7l",
+    obsah: "38%",
+    cena: 13,
+    krajina: "Slovensko",
+    popis:
+      "Extra jemná, prirodzená chuť a vôňa vodky z čiernych ríbezlí Vás očarí hneď pri prvom dúšku. Vyrobená je z krištáľovo čistej tatranskej vody a jemného obilného liehu. Pred finálnou úpravou bola filtrovaná cez unikátne strieborné filtre, ktoré jej dodali lahodnosť a čistotu.",
+  },
+  {
+    id: 59,
+    produkt: "Vodka Nicolaus Cranberry",
+    typ: "Vodka",
+    objem: "0,7l",
+    obsah: "38%",
+    cena: 13,
+    krajina: "Slovensko",
+    popis:
+      "Extra jemná, prirodzená chuť a vôňa vodky z čiernych ríbezlí Vás očarí hneď pri prvom dúšku. Vyrobená je z krištáľovo čistej tatranskej vody a jemného obilného liehu. Pred finálnou úpravou bola filtrovaná cez unikátne strieborné filtre, ktoré jej dodali lahodnosť a čistotu.",
+  },
+  {
+    id: 60,
+    produkt: "Vodka Nicolaus Lime",
+    typ: "Vodka",
+    objem: "0,7l",
+    obsah: "38%",
+    cena: 13,
+    krajina: "Slovensko",
+    popis:
+      "Extra jemná, prirodzená chuť a vôňa vodky z čiernych ríbezlí Vás očarí hneď pri prvom dúšku. Vyrobená je z krištáľovo čistej tatranskej vody a jemného obilného liehu. Pred finálnou úpravou bola filtrovaná cez unikátne strieborné filtre, ktoré jej dodali lahodnosť a čistotu.",
+  },
+  {
+    id: 61,
+    produkt: "Rum Božkov Republika",
+    typ: "Rum",
+    objem: "0,7l",
+    obsah: "38%",
+    cena: 18,
+    krajina: "Česká Republika",
+    popis:
+      "Milovníci rumu a kvalitného alkoholu určite ocenia tento tmavý nápoj vyrobený z osemročných karibských rumov, citlivo dochutený trstinovým cukrom. Jeho jemná delikátna sladkastá chuť s príjemnými tónmi vanilky, sušeného ovocia a aromatických orieškov vás nesklame.",
+  },
 ];
+
+// instert ID 20
